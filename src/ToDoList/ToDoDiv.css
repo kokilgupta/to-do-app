@@ -1,0 +1,108 @@
+
+.to_do_div{
+    margin:24px;
+    min-width: 30%;
+    max-width: 30%;
+    height: 80vh;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+    overflow: auto;
+    /*display: table-cell;*/
+    position: relative;
+    padding-top: 20px;
+}
+.fa-times{
+    height: 22px;
+    width: 22px;
+    margin-bottom: 1px;
+    right: 0.1px;
+    top: 0.3px;
+    position: absolute;
+    color: #e60000;
+    font-size: 20px;
+    font-weight: 0;
+
+}
+.fa-times:hover{
+    color:white;
+    background-color: #e60000;
+}
+h1{
+    color: white;
+    background: transparent;
+    background-color: #00cc99;
+    padding: 6px 0 2px 0;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+    width: fit-content;
+    min-width:100%;
+}
+.heading{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform:uppercase;
+}
+.input_item{
+    text-align: center;
+    height: 30px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    width: 60%;
+    border-bottom: 2px solid #8566aa;
+    outline: none;
+}
+.addButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add_item_button{
+    height: 40px;
+    width: 40px;
+    border-radius: 60%;
+    border-color: transparent;
+    background-color: #00cc99;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 1000;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+
+}
+.add_item_button:hover{
+    background-color: #00664d;
+}
+ol{
+    margin-top: 30px;
+}
+
+ol li:last-of-type {
+    min-width: 0;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    /*height: 40px;*/
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #00cc99;
+    text-transform: capitalize;
+
+}
+@media(max-width:768px){
+    .add_item_button{
+        margin-left: 5px;
+        height: 40px;
+        width: 40px;
+        color: white;
+        font-size: 30px;
+    }
+
+}

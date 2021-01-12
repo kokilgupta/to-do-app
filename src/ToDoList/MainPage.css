@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #00664d;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #00664d;
+}
+.main_page{
+    width: 100%;
+    height:100vh;
+    background-image: url("../photos/mainimage.jpg") ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.add_list_button{
+    height: 40px;
+    width: 60px;
+    border-left: none;
+    background-image: radial-gradient(#ff4dff, #cc00cc, #800080);
+    font-size: 20px;
+    font-weight: 1000;
+    /*border:solid #440066;*/
+    border-right: solid #440066;
+    border-top: solid #440066;
+    border-bottom: solid #440066;
+    outline: none;
+    /*text-align: center;*/
+    margin-bottom: 30px;
+    color: white;
+}
+.add_list_button:hover{
+    color: white;
+}
+.input_list{
+    text-align: center;
+    height: 40px;
+    top: 10px;
+    font-size: 19px;
+    font-weight: 500;
+    width: 60%;
+    border:solid #440066;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.add_list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.to_do_divs{
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    width: 100%;
+}
+@media(max-width:768px) {
+   .input_list{
+
+   }
+    .add_list_button{
+        width: 30px;
+
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
