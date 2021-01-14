@@ -1,6 +1,7 @@
 
 .to_do_div{
-    margin:24px;
+    margin: auto;
+    margin-top:24px;
     min-width: 30%;
     max-width: 30%;
     height: 80vh;
@@ -96,7 +97,7 @@ ol li {
     text-transform: capitalize;
 
 }
-@media(max-width:768px){
+@media(max-width:1000px){
     .add_item_button{
         margin-left: 5px;
         height: 40px;
@@ -104,5 +105,25 @@ ol li {
         color: white;
         font-size: 30px;
     }
-
+    .to_do_div{
+        margin: auto;
+        margin-top: 24px;
+        min-width: 45%;
+        max-width: 45%;
+    }
+}
+@media(max-width:750px){
+    .add_item_button{
+        margin-left: 5px;
+        height: 40px;
+        width: 40px;
+        color: white;
+        font-size: 30px;
+    }
+.to_do_div{
+    margin: auto;
+    margin-top: 24px;
+    min-width: 70%;
+    max-width: 70%;
+}
 }

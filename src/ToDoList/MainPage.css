@@ -76,12 +76,9 @@
     width: 100%;
 }
 @media(max-width:768px) {
-   .input_list{
 
-   }
     .add_list_button{
         width: 30px;
-
         font-size: 15px;
         font-weight: 500;
     }
